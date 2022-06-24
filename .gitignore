@@ -1,0 +1,5 @@
+logs/
+plugins/
+dags/
+mysql_data/
+postgres_data/

@@ -15,6 +15,7 @@ project
 |
 └───apache
 |   │   airflow.yaml
+|   |   pyspark-notebook.yml
 |
 └───extras
     |   docker-kill-all.sh

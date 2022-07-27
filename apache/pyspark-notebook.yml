@@ -1,0 +1,12 @@
+version: '3'
+services:
+  jupyter-base-notebook:
+    image: docker.io/jupyter/pyspark-notebook:spark-3.3.0
+    ports:
+      - 8888:8888
+    volumes:
+      - ./data:/home/jovyan/work:rw
+    user: root
+    environment:
+      - GRANT_SUDO=yes
+      - JUPYTER_TOKEN=1234

@@ -1,9 +1,3 @@
-# GETTING STARTED
-# docker-compose -f airflow.yaml up airflow-init
-# docker-compose -f airflow.yaml up
-# user: airflow
-# password: airflow
-
 # Basic Airflow cluster configuration for CeleryExecutor with Redis and PostgreSQL.
 #
 # WARNING: This configuration is for local development. Do not use it in a production deployment.
